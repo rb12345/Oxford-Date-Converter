@@ -33,6 +33,7 @@ function CreateTerm(year, termNumber)
 -------------------------------------
 
 termNumber:
+
 *	0=Hilary
 *	1=Trinity
 *	2=Long Vacation
@@ -44,7 +45,7 @@ Example:
 
 ```javascript
 term=CreateTerm(2006, 3);
-alert("Michaelmas 2006 starts on "+term.StartDate.toString());`
+alert("Michaelmas 2006 starts on "+term.StartDate.toString());
 ```
 
 function OxfordDate(term, week, day)
